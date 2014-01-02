@@ -1,0 +1,21 @@
+# Write Python code that initializes the variable
+# start_link to be the value of the position
+# where the first '<a href=' occurs in a page.
+
+# page = '''<div id="top_bin"> <div id="top_content" class="width960">
+#    <div class="udacity float-left"> <a href="/">'''
+
+# start_link = page.find('<a href=')
+
+
+# Now in Ruby
+
+page = '''<div id="top_bin"> <div id="top_content" class="width960">
+   <div class="udacity float-left"> <a href="/">'''
+
+start_link = page.index('<a href=')
+
+puts start_link
+
+# that is the index position where the a href link starts. to verify, you could do this:
+#puts page[95..-1]
