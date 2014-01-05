@@ -15,4 +15,6 @@ t = 'bodacious'
 
 # t[-2..-1] = 'dacious'
 
+# or this way below
+
 puts s[0..4] + t[6..-1]
