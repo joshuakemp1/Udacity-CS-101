@@ -7,4 +7,4 @@ def bigger(num_1 , num2)
     return num_1
  end
 end
-puts bigger(12,12)
+puts bigger(12,13)
