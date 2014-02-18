@@ -11,12 +11,12 @@
 # (No fair for USians to just say use a "Forever" stamp and be done with it!)
 #
 
-def stamps(num)
+# def stamps(*num)
+#   puts "Hi #{num[0...1]}"
+# end
 
-end
 
-
-puts stamps(8)
+# puts stamps(8,9,11,12)
 #>>> (1, 1, 1)  # one 5p stamp, one 2p stamp and one 1p stamp
 # puts stamps(5)
 #>>> (1, 0, 0)  # one 5p stamp, no 2p stamps and no 1p stamps
@@ -24,3 +24,24 @@ puts stamps(8)
 #>>> (5, 2, 0)  # five 5p stamps, two 2p stamps and no 1p stamps
 # puts stamps(0)
 #>>> (0, 0, 0) # no 5p stamps, no 2p stamps and no 1p stamps
+
+
+def stamps(num)
+
+  num = num.to_s
+
+  case
+
+    
+  end
+
+  end
+
+
+
+
+
+
+
+
+
