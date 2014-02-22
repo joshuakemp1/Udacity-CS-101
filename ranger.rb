@@ -10,7 +10,6 @@ array_of_nums = [8,12,9]
 
 def set_range(input_array)
   answer = input_array.max - input_array.min
-
 end
 
 puts set_range(array_of_nums)
