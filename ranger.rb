@@ -6,16 +6,21 @@
 # might help you with this question. You might also like to find a way to
 # code it using some built in functions.
 
-def set_range(n1,n2,n3)
-    array = Array.new
-    numbers = n1,n2,n3
+array_of_nums = [8,12,9]
 
-    array << numbers
+def set_range(input_array)
+  answer = input_array.max - input_array.min
 
-    print array.minmax
 end
 
- puts set_range(10, 4, 7)
+puts set_range(array_of_nums)
+
+
+
+# def array_of_nums
+
+# end
+
 #>>> 6  # since 10 - 4 = 6
 
 # puts set_range(1.1, 7.4, 18.7)
