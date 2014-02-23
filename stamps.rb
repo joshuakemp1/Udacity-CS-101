@@ -11,31 +11,84 @@
 # (No fair for USians to just say use a "Forever" stamp and be done with it!)
 #
 
-# def stamps(*num)
-#   puts "Hi #{num[0...1]}"
+ # array_of_numbers = [8]
+
+# answer_array = []
+
+# def stamps(input)
+#   if input % 5 == 0
+#   puts 'Zero!'
+#   else
+#     puts 'NO!'
+#   end
+# end
+
+# print stamps(8)
+
+# array_of_numbers = [8]
+
+# 100.times do
+#   puts " Hey HEY! HHHHHEEEYYYYY!!!!!"
 # end
 
 
-# puts stamps(8,9,11,12)
-#>>> (1, 1, 1)  # one 5p stamp, one 2p stamp and one 1p stamp
-# puts stamps(5)
+
+def stamps(input)
+  pence_answer = []
+
+     numbers = input / 5
+
+     pence_answer.push(numbers)
+
+     numbers = input % 5 / 2
+
+     pence_answer.push(numbers)
+
+     if numbers == 1
+
+      pence_answer.push(1)
+
+    else
+
+      pence_answer.push(0)
+
+end
+end
+
+
+print stamps(29)
+
+
+
+# print stamps(5)
 #>>> (1, 0, 0)  # one 5p stamp, no 2p stamps and no 1p stamps
-# puts stamps(29)
+# print stamps(29)
 #>>> (5, 2, 0)  # five 5p stamps, two 2p stamps and no 1p stamps
-# puts stamps(0)
+# print stamps(0)
 #>>> (0, 0, 0) # no 5p stamps, no 2p stamps and no 1p stamps
 
 
-def stamps(num)
+# def stamps(input_array)
+#   if input_array.first % 5 == 0
+#     puts 'Zero!'
+#   else
+#     puts 'NO!'
+#   end
+# end
 
-  num = num.to_s
+# print stamps(array_of_numbers)
 
-  case
+# numbers = input / 5
 
-    
-  end
+#      five_pence.push(numbers)
 
-  end
+#      numbers = input / 3
+
+#      five_pence.push(numbers)
+
+#      numbers = input / 1
+
+#      five_pence.push(numbers)
 
 
 
