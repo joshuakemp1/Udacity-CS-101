@@ -30,7 +30,7 @@ def find_last(search_s,target_s)
  end
 end
 
-puts find_last("222222222", "")
+# puts find_last("222222222", "")
 
 
 
@@ -41,7 +41,7 @@ puts find_last("222222222", "")
 # end
 
 
-#print find_last('aaaa', 'a')
+puts find_last('aaaa', 'a')
 #>>> 3
 
 #print find_last('aaaaa', 'aa')

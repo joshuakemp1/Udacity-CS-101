@@ -25,11 +25,13 @@
 # 5***** #  If you've graduated from CS101,
 #  Gold  #  try solving this in one line.
 # Stars! #
-
+                        #variable
 def fix_machine(debris, product)
     ### WRITE YOUR CODE HERE ###
+    #new variable is old variable asking for something in this case size
     counter1 = product.size
 
+# then use the new variable asking something about the original input variable
     for i in (0...counter1)
       letter_checker = product[i]
         if !debris.index(letter_checker)
