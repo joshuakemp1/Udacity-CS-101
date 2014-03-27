@@ -9,14 +9,14 @@ end
 
 
 
-def largest(num1,num2,num3)#calls here
+def largest(num1,num2,num3)#next here
   return larger(num1,larger(num2,num3))#then back again
 end
 
 
 
 
-def median(num1,num2,num3)#then here
+def median(num1,num2,num3)#here
   highest_num = largest(num1,num2,num3)
    if  highest_num == num1
      return larger(num2,num3)
